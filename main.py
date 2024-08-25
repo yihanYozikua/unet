@@ -14,8 +14,8 @@ data_gen_args = dict(rotation_range=0.2,
 myGene = trainGenerator(2,'data/membrane/train','image','label',data_gen_args,save_to_dir = None)
 
 model = unet()
-model_checkpoint = ModelCheckpoint('unet_membrane.hdf5', monitor='loss',verbose=1, save_best_only=True)
-model.fit_generator(myGene,steps_per_epoch=300,epochs=1,callbacks=[model_checkpoint])
+model_checkpoint = ModelCheckpoint('unet_membrane.keras', monitor='loss',verbose=1, save_best_only=True)
+model.fit(myGene,steps_per_epoch=300,epochs=1,callbacks=[model_checkpoint])
 
 testGene = testGenerator("data/membrane/test")
 results = model.predict_generator(testGene,30,verbose=1)
