@@ -1,10 +1,12 @@
 from __future__ import print_function
+import warnings
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np 
 import os
 import glob
 import skimage.io as io
 import skimage.transform as trans
+from skimage import color, img_as_ubyte
 
 Sky = [128,128,128]
 Building = [128,0,0]
@@ -91,6 +93,26 @@ def testGenerator(test_path,num_image = 30,target_size = (256,256),flag_multi_cl
         img = np.reshape(img,(1,)+img.shape)
         yield img
 
+def testGenerator_v2(test_path, num_image=30, target_size=(256, 256), flag_multi_class=False, as_gray=False):
+    for i in range(num_image):
+        # Read the image
+        img = io.imread(os.path.join(test_path, "%d.png" % i), as_gray=as_gray)
+
+        # If the image is RGB, convert it to grayscale
+        if img.ndim == 3 and img.shape[2] == 3:
+            img = color.rgb2gray(img)
+
+        # Normalize the image
+        img = img / 255.0
+
+        # Resize the image
+        img = trans.resize(img, target_size, mode='reflect', anti_aliasing=True)
+
+        # Reshape the image to add channel and batch dimensions
+        img = np.reshape(img, (1,) + img.shape + (1,))
+
+        # Yield as a tuple
+        yield (img,)
 
 def geneTrainNpy(image_path,mask_path,flag_multi_class = False,num_class = 2,image_prefix = "image",mask_prefix = "mask",image_as_gray = True,mask_as_gray = True):
     image_name_arr = glob.glob(os.path.join(image_path,"%s*.png"%image_prefix))
@@ -122,3 +144,18 @@ def saveResult(save_path,npyfile,flag_multi_class = False,num_class = 2):
     for i,item in enumerate(npyfile):
         img = labelVisualize(num_class,COLOR_DICT,item) if flag_multi_class else item[:,:,0]
         io.imsave(os.path.join(save_path,"%d_predict.png"%i),img)
+
+
+def saveResult_v2(save_path, results):
+    for i, img in enumerate(results):
+        # Assuming img is a single-channel floating-point image
+        img = img_as_ubyte(img)
+
+        if img.ndim == 3 and img.shape[-1] == 1:
+            img = img[:, :, 0]
+
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", UserWarning)
+            io.imsave(os.path.join(save_path, "%d_predict.png" % i), img)
+
+    print("Results saved in", save_path)
