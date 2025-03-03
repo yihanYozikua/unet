@@ -1,0 +1,10 @@
+kaggle==1.6.17
+keras==3.8.0
+matplotlib-inline==0.1.7
+nibabel==5.3.2
+opencv-python==4.11.0.86
+pandas==2.2.3
+scikit-image==0.25.2
+tensorflow==2.16.2
+tensorflow-io-gcs-filesystem==0.37.1
+tensorflow-macos==2.16.2
