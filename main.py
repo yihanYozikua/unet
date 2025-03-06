@@ -1,7 +1,7 @@
 from data import *
 from model import *
 
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 data_gen_args = dict(
@@ -21,7 +21,7 @@ myGene = trainGenerator(
     aug_dict=data_gen_args,
     save_to_dir='data/brats/train/aug')
 
-model = unet(input_size=(369, 369, 4))
+model = unet()
 model_checkpoint = ModelCheckpoint('unet_brats.keras', monitor='loss', verbose=1, save_best_only=True)
 model.fit(myGene, steps_per_epoch=300, epochs=1, callbacks=[model_checkpoint])
 
