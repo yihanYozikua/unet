@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_epoch18-val_loss0.013367_Mar-11_00-55-22.m5"
+all_model_checkpoint_paths: "model_epoch18-val_loss0.013367_Mar-11_00-55-22.m5"
