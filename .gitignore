@@ -2,7 +2,6 @@
 /data/
 /img/
 *.keras
-/model/
-/model_*/model_*
-/model_*/checkpoint
+/model/model_*/model_*
+/model/model_*/checkpoint
 /processed_data/*.pkl
