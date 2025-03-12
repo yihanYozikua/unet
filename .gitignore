@@ -3,3 +3,5 @@
 /img/
 *.keras
 /model/
+/model_*/model_*
+/model_*/checkpoint
