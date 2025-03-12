@@ -5,3 +5,4 @@
 /model/
 /model_*/model_*
 /model_*/checkpoint
+/processed_data/*.pkl
