@@ -1,0 +1,18 @@
+----------
+model name: unet_v1
+epochs: 100
+steps_per_epoch: 850
+dimension: 128
+n_channels: 2
+input layer: KerasTensor(type_spec=TensorSpec(shape=(None, 128, 128, 2), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+kernel init: he_normal
+dropout: 0.2
+learning rate: 0.0001
+loss function: categorical_crossentropy
+train cases: 850
+train slices: 36812
+validation cases: 251
+val slices: 10601
+test cases: 150
+start training at: Mar-13_11-07-45
+----------
