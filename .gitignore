@@ -4,4 +4,4 @@
 /model/model_*/model_*
 /model/model_*/checkpoint
 /data/processed_data_*/*.pkl
-*/archive/
+/model/archive/
