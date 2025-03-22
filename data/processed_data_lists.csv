@@ -1,3 +1,4 @@
 tumor_ratio_lower_bound,tumor_ratio_upper_bound,train_slices,val_slices,test_slices,generated_timestamp
 0.05,0.1,13150,3768,2184,Mar-17_23-34-42
 0.1,0.25,23662,6833,4478,Mar-19_22-20-04
+0.05,0.25,36812,10601,6662,Mar-22_15-48-00
