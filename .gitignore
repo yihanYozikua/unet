@@ -3,5 +3,5 @@
 *.keras
 /model/model_*/model_*
 /model/model_*/checkpoint
-/data/processed_data_*/*.pkl
+/data/*/processed_data_*/*.pkl
 /model/archive/
