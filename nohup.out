@@ -1816,3 +1816,4 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 2025-03-22 20:45:31.965583: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:214] Using CUDA malloc Async allocator for GPU: 0
 2025-03-22 20:45:31.966003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 18432 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:01:00.0, compute capability: 8.6
 2025-03-22 20:49:29.316456: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8202
+[I 2025-03-22 22:10:01.339 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:029d1a3b-dbe6-41af-b32b-5586a068f9a3
