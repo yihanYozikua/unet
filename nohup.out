@@ -510,3 +510,521 @@ To enable them in other operations, rebuild TensorFlow with the appropriate comp
 [I 2025-03-19 22:38:25.978 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.33ms
 [I 2025-03-19 22:38:29.659 ServerApp] User 1f446762c18f469887b96f23bb30098e logged in.
 [I 2025-03-19 22:38:29.659 ServerApp] 302 POST /login? (1f446762c18f469887b96f23bb30098e@127.0.0.1) 1.02ms
+2025-03-19 22:39:42.055261: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.095475: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.097294: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.115236: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-19 22:39:42.116139: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.116680: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.117155: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.658724: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.659229: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.659679: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:39:42.660107: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:214] Using CUDA malloc Async allocator for GPU: 0
+2025-03-19 22:39:42.660712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 18432 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:01:00.0, compute capability: 8.6
+[I 2025-03-19 22:43:37.442 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-03-19 22:43:37.444 ServerApp] kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2 restarted
+[I 2025-03-19 22:43:37.470 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+[I 2025-03-19 22:43:37.479 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-19 22:43:37.479 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+[I 2025-03-19 22:44:11.136 ServerApp] Kernel restarted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-19 22:44:11.138 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+[I 2025-03-19 22:44:11.142 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-19 22:44:11.142 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+2025-03-19 22:44:23.086372: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.135161: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.137026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.152050: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-19 22:44:23.152944: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.153450: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.153910: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.713998: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.714506: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.714953: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:44:23.715378: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:214] Using CUDA malloc Async allocator for GPU: 0
+2025-03-19 22:44:23.715980: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 18432 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:01:00.0, compute capability: 8.6
+[I 2025-03-19 22:47:41.130 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-03-19 22:47:41.133 ServerApp] kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2 restarted
+[I 2025-03-19 22:47:41.166 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+[I 2025-03-19 22:47:41.194 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-19 22:47:41.194 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+2025-03-19 22:49:48.621585: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:48.657928: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:48.659038: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:48.698092: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-19 22:49:48.699747: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:48.701325: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:48.702964: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:49.269804: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:49.270349: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:49.270795: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2025-03-19 22:49:49.271219: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:214] Using CUDA malloc Async allocator for GPU: 0
+2025-03-19 22:49:49.271815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 18432 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:01:00.0, compute capability: 8.6
+2025-03-19 22:52:43.468309: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8202
+[I 2025-03-19 22:55:49.315 ServerApp] Kernel interrupted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-20 05:00:55.139 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:edc04cfa-c747-46fa-b8f5-637eb1b024d4
+[I 2025-03-22 13:59:14.733 ServerApp] 302 GET / (@127.0.0.1) 0.30ms
+[I 2025-03-22 13:59:14.734 ServerApp] 302 GET / (@127.0.0.1) 0.21ms
+[I 2025-03-22 13:59:14.736 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.36ms
+[I 2025-03-22 13:59:14.737 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.24ms
+[W 2025-03-22 13:59:15.305 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.305 ServerApp] 403 GET /api/kernelspecs?1742623155290 (@127.0.0.1) 0.80ms referer=None
+[W 2025-03-22 13:59:15.310 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.310 ServerApp] 403 GET /api/kernels?1742623155292 (@127.0.0.1) 0.59ms referer=None
+[W 2025-03-22 13:59:15.311 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.311 ServerApp] 403 GET /api/kernels?1742623155304 (@127.0.0.1) 0.44ms referer=None
+[W 2025-03-22 13:59:15.311 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.312 ServerApp] 403 GET /api/sessions?1742623155305 (@127.0.0.1) 0.51ms referer=None
+[W 2025-03-22 13:59:15.313 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.313 ServerApp] 403 GET /api/kernelspecs?1742623155310 (@127.0.0.1) 0.47ms referer=None
+[I 2025-03-22 13:59:15.320 ServerApp] 302 GET / (@127.0.0.1) 0.28ms
+[I 2025-03-22 13:59:15.326 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.35ms
+[W 2025-03-22 13:59:15.477 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.477 ServerApp] 403 GET /api/kernelspecs?1742623155474 (@127.0.0.1) 0.66ms referer=None
+[W 2025-03-22 13:59:15.484 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.485 ServerApp] 403 GET /api/kernels?1742623155475 (@127.0.0.1) 0.65ms referer=None
+[W 2025-03-22 13:59:15.485 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.485 ServerApp] 403 GET /api/kernelspecs?1742623155475 (@127.0.0.1) 0.63ms referer=None
+[W 2025-03-22 13:59:15.485 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.486 ServerApp] 403 GET /api/kernels?1742623155475 (@127.0.0.1) 0.88ms referer=None
+[W 2025-03-22 13:59:15.487 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.487 ServerApp] 403 GET /api/kernels?1742623155477 (@127.0.0.1) 0.82ms referer=None
+[W 2025-03-22 13:59:15.487 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.487 ServerApp] 403 GET /api/sessions?1742623155478 (@127.0.0.1) 1.07ms referer=None
+[W 2025-03-22 13:59:15.487 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.488 ServerApp] 403 GET /api/kernels?1742623155478 (@127.0.0.1) 1.32ms referer=None
+[W 2025-03-22 13:59:15.488 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.488 ServerApp] 403 GET /api/sessions?1742623155478 (@127.0.0.1) 1.58ms referer=None
+[W 2025-03-22 13:59:15.489 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.489 ServerApp] 403 GET /api/kernelspecs?1742623155484 (@127.0.0.1) 0.45ms referer=None
+[W 2025-03-22 13:59:15.490 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:15.491 ServerApp] 403 GET /api/kernelspecs?1742623155487 (@127.0.0.1) 0.48ms referer=None
+[I 2025-03-22 13:59:15.491 ServerApp] 302 GET / (@127.0.0.1) 0.20ms
+[I 2025-03-22 13:59:15.492 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.30ms
+[W 2025-03-22 13:59:16.019 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:16.020 ServerApp] 403 GET /api/kernelspecs?1742623156018 (@127.0.0.1) 0.75ms referer=None
+[W 2025-03-22 13:59:16.021 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:16.021 ServerApp] 403 GET /api/kernels?1742623156018 (@127.0.0.1) 0.50ms referer=None
+[W 2025-03-22 13:59:16.022 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:16.022 ServerApp] 403 GET /api/kernels?1742623156019 (@127.0.0.1) 0.62ms referer=None
+[W 2025-03-22 13:59:16.022 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:16.022 ServerApp] 403 GET /api/sessions?1742623156020 (@127.0.0.1) 0.89ms referer=None
+[W 2025-03-22 13:59:16.023 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 13:59:16.023 ServerApp] 403 GET /api/kernelspecs?1742623156021 (@127.0.0.1) 0.48ms referer=None
+[I 2025-03-22 13:59:18.212 ServerApp] User 2a6a6ff3edf8403dbc73d9441d0ebab3 logged in.
+[I 2025-03-22 13:59:18.213 ServerApp] 302 POST /login? (2a6a6ff3edf8403dbc73d9441d0ebab3@127.0.0.1) 0.92ms
+[I 2025-03-22 13:59:18.245 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 13:59:18.355 ServerApp] 302 GET / (@127.0.0.1) 0.28ms
+[I 2025-03-22 13:59:18.363 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 1.39ms
+[I 2025-03-22 13:59:40.335 ServerApp] User fa34a4fbf9f24a4e8f6352b794f19464 logged in.
+[I 2025-03-22 13:59:40.337 ServerApp] 302 POST /login? (fa34a4fbf9f24a4e8f6352b794f19464@127.0.0.1) 3.24ms
+[I 2025-03-22 14:03:42.640 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:5ced5652-3b5e-4fec-a5f9-38324f91dad5
+[I 2025-03-22 14:03:52.748 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:08:23.162 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-03-22 14:08:23.163 ServerApp] kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2 restarted
+[I 2025-03-22 14:08:23.195 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:609d5812-4ad9-4465-87d8-a82fed5ca795
+[I 2025-03-22 14:08:23.206 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:08:23.207 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:609d5812-4ad9-4465-87d8-a82fed5ca795
+[I 2025-03-22 14:08:40.686 ServerApp] Kernel restarted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-22 14:08:40.688 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:609d5812-4ad9-4465-87d8-a82fed5ca795
+[I 2025-03-22 14:08:40.691 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:08:40.691 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:609d5812-4ad9-4465-87d8-a82fed5ca795
+[I 2025-03-22 14:14:55.139 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:609d5812-4ad9-4465-87d8-a82fed5ca795
+[I 2025-03-22 14:22:31.277 ServerApp] 302 GET / (@127.0.0.1) 0.27ms
+[I 2025-03-22 14:22:31.278 ServerApp] 302 GET / (@127.0.0.1) 0.20ms
+[I 2025-03-22 14:22:31.281 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.35ms
+[I 2025-03-22 14:22:31.282 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.37ms
+[W 2025-03-22 14:22:31.819 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:31.819 ServerApp] 403 GET /api/kernelspecs?1742624551805 (@127.0.0.1) 0.74ms referer=None
+[W 2025-03-22 14:22:31.821 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:31.822 ServerApp] 403 GET /api/kernels?1742624551806 (@127.0.0.1) 0.49ms referer=None
+[W 2025-03-22 14:22:31.822 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:31.822 ServerApp] 403 GET /api/kernels?1742624551819 (@127.0.0.1) 0.43ms referer=None
+[W 2025-03-22 14:22:31.823 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:31.823 ServerApp] 403 GET /api/sessions?1742624551819 (@127.0.0.1) 0.45ms referer=None
+[W 2025-03-22 14:22:31.831 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:31.832 ServerApp] 403 GET /api/kernelspecs?1742624551825 (@127.0.0.1) 0.55ms referer=None
+[I 2025-03-22 14:22:31.837 ServerApp] 302 GET / (@127.0.0.1) 0.23ms
+[I 2025-03-22 14:22:31.838 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.29ms
+[W 2025-03-22 14:22:32.153 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.154 ServerApp] 403 GET /api/kernelspecs?1742624552151 (@127.0.0.1) 0.62ms referer=None
+[W 2025-03-22 14:22:32.161 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.161 ServerApp] 403 GET /api/kernels?1742624552151 (@127.0.0.1) 0.66ms referer=None
+[W 2025-03-22 14:22:32.162 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.162 ServerApp] 403 GET /api/kernelspecs?1742624552151 (@127.0.0.1) 0.67ms referer=None
+[W 2025-03-22 14:22:32.162 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.162 ServerApp] 403 GET /api/kernels?1742624552152 (@127.0.0.1) 0.90ms referer=None
+[W 2025-03-22 14:22:32.163 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.163 ServerApp] 403 GET /api/kernels?1742624552153 (@127.0.0.1) 0.67ms referer=None
+[W 2025-03-22 14:22:32.163 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.163 ServerApp] 403 GET /api/sessions?1742624552153 (@127.0.0.1) 0.92ms referer=None
+[W 2025-03-22 14:22:32.164 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.164 ServerApp] 403 GET /api/kernels?1742624552154 (@127.0.0.1) 0.99ms referer=None
+[W 2025-03-22 14:22:32.165 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.165 ServerApp] 403 GET /api/sessions?1742624552154 (@127.0.0.1) 1.27ms referer=None
+[W 2025-03-22 14:22:32.165 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.165 ServerApp] 403 GET /api/kernelspecs?1742624552160 (@127.0.0.1) 1.46ms referer=None
+[W 2025-03-22 14:22:32.167 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.168 ServerApp] 403 GET /api/kernelspecs?1742624552164 (@127.0.0.1) 0.46ms referer=None
+[I 2025-03-22 14:22:32.168 ServerApp] 302 GET / (@127.0.0.1) 0.18ms
+[I 2025-03-22 14:22:32.171 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.29ms
+[W 2025-03-22 14:22:32.310 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.311 ServerApp] 403 GET /api/kernelspecs?1742624552309 (@127.0.0.1) 0.69ms referer=None
+[W 2025-03-22 14:22:32.315 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.315 ServerApp] 403 GET /api/kernels?1742624552309 (@127.0.0.1) 0.56ms referer=None
+[W 2025-03-22 14:22:32.316 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.316 ServerApp] 403 GET /api/kernels?1742624552313 (@127.0.0.1) 0.59ms referer=None
+[W 2025-03-22 14:22:32.316 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.316 ServerApp] 403 GET /api/sessions?1742624552313 (@127.0.0.1) 0.83ms referer=None
+[W 2025-03-22 14:22:32.317 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/cbel/Desktop/YIHAN/venv/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-03-22 14:22:32.317 ServerApp] 403 GET /api/kernelspecs?1742624552315 (@127.0.0.1) 0.50ms referer=None
+[I 2025-03-22 14:22:34.224 ServerApp] User cee168e68cb643028991f003a94350ad logged in.
+[I 2025-03-22 14:22:34.225 ServerApp] 302 POST /login? (cee168e68cb643028991f003a94350ad@127.0.0.1) 0.74ms
+[I 2025-03-22 14:22:34.262 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:22:34.377 ServerApp] 302 GET / (@127.0.0.1) 0.63ms
+[I 2025-03-22 14:22:34.381 JupyterNotebookApp] 302 GET /tree? (@127.0.0.1) 0.68ms
+[I 2025-03-22 14:22:58.502 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:f0ba794b-5f0f-4170-9f63-362d5b5e5d6f
+[I 2025-03-22 14:22:59.998 ServerApp] User 1e0756219c7442af8a6539d78f5800b3 logged in.
+[I 2025-03-22 14:22:59.999 ServerApp] 302 POST /login? (1e0756219c7442af8a6539d78f5800b3@127.0.0.1) 2.90ms
+[I 2025-03-22 14:23:03.328 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:28:12.298 ServerApp] Kernel interrupted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-22 14:28:30.441 ServerApp] Kernel restarted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-22 14:28:30.445 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:28:30.449 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:28:30.449 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:43:00.432 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-03-22 14:43:00.434 ServerApp] kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2 restarted
+[I 2025-03-22 14:43:00.459 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:43:00.470 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:43:00.470 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:43:12.179 ServerApp] Kernel restarted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-22 14:43:12.181 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:43:12.184 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:43:12.184 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:46:00.822 ServerApp] Kernel restarted: c2f5cbbe-5426-4551-b160-3a95988a0bb2
+[I 2025-03-22 14:46:00.825 ServerApp] Starting buffering for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
+[I 2025-03-22 14:46:00.830 ServerApp] Connecting to kernel c2f5cbbe-5426-4551-b160-3a95988a0bb2.
+[I 2025-03-22 14:46:00.830 ServerApp] Restoring connection for c2f5cbbe-5426-4551-b160-3a95988a0bb2:db9de340-a1dd-4c56-9d88-7738e308f415
