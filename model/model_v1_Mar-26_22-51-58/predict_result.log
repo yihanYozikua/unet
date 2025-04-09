@@ -1,0 +1,9 @@
+==================================
+Loss : 0.1422
+Accuracy : 0.9877
+MeanIOU : 0.9653
+Dice coefficient : 0.7949
+Precision : 0.9875
+Sensitivity : 0.9874
+Specificity : 0.9958
+==================================
